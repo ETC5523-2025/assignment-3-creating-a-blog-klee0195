@@ -10,4 +10,10 @@ about:
 
 ---
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+Welcome to my first website ever! 🥰
+
+I am a Master of Business Analytics student at Monash University.
+
+With a background in finance and econometrics from my undergraduate studies, I bring an adventurous, challenge-seeking spirit and a strong desire to continue my academic journey at Monash. Through this program, I aim to strengthen my ability to explore data and uncover the stories it tells. These are skills that aligns and resonates with the analytical foundation from my bachelor studies.
+
+This website not only showcases my work for [Assignment 3 of ETC5523: Communicating with Data](https://cwd.numbat.space/assignments/assignment-3.html) but also represents the first website I have ever created. I believe that taking the first step is already half the journey to success, so I am genuinely excited about the skills and experiences I will gain through this project.
