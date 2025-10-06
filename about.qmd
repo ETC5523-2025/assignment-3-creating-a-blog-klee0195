@@ -3,6 +3,8 @@ title: "Kim Yen Le"
 image: profile.jpg
 about:
   template: solana
+  image-width: 20em
+  image-shape: round
   links:
     - icon: github
       text: Github
