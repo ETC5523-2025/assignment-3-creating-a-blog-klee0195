@@ -2,7 +2,7 @@
 title: "Kim Yen Le"
 image: profile.jpg
 about:
-  template: jolla
+  template: solana
   links:
     - icon: github
       text: Github
