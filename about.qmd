@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Kim Yen Le"
 image: profile.jpg
 about:
   template: jolla
