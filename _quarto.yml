@@ -4,14 +4,36 @@ project:
 website:
   title: "Kim Yen Le"
   navbar:
+    background: "#006dae"
+    left:
+      - href: index.qmd
+        text: Home
+        icon: house-fill
+      - href: about.qmd
+        text: About
+        icon: person-circle
+      - href: posts/welcome/index.qmd
+        text: Blog
+        icon: journal-text
     right:
-      - about.qmd
       - icon: github
         href: https://github.com/klee0195
+date-format: "D MMMM YYYY"
+
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: [cosmo, styles.scss]
+    highlight: textmate
+    toc: true
+    mainfont: "Fira Sans"
+    html-math-method: katex
+    include-in-header:
+      file: header.html
+
+execute:
+  echo: false
+  warning: false
+  message: false
 
 
 
