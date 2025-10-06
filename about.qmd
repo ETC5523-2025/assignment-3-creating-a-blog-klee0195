@@ -7,6 +7,9 @@ about:
     - icon: github
       text: Github
       href: https://github.com/klee0195
+    - icon: envelope
+      text: Email
+      href: mailto:klee0195@student.monash.edu
 
 ---
 
