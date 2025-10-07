@@ -5,8 +5,7 @@ date: "2025-10-07"
 categories:
   - Assessment
   - ETC5523
-  - Water quality
-  - Unite States
+  - Environment
 ---
 
 This is the first post in a Quarto blog. Welcome!
