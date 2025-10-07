@@ -1,8 +1,12 @@
 ---
 title: "Welcome To My Blog Template"
-author: "Emi Tanaka"
-date: "2022-07-18"
-categories: [news]
+author: "Kim Yen Le"
+date: "2025-10-07"
+categories:
+  - Assessment
+  - ETC5523
+  - Water quality
+  - Unite States
 ---
 
 This is the first post in a Quarto blog. Welcome!
