@@ -16,13 +16,49 @@ library("knitr")
 
 ## The expensive problem of nitrate monitoring
 
-Fertilizer and manure runoff across agricultural fields are often the culprit for the presence of nitrate in rivers.
+Fertiliser and manure runoff across agricultural fields are often the culprit for the presence of nitrate in rivers.
 
 Nitrate is an essential nutrient, but when present in excess in rivers, it becomes a serious pollutant, leading to eutrophication and ecosystem degradation. Closely monitoring nitrate concentrations is crucial for water resource managers.
 
 However, monitoring nitrate concentrations is a major cost challenge. Traditional methods such as manual sampling are time-consuming and labor-intensive, while dedicated nitrate sensors for continuous measurement are extremely expensive. This limits the ability to deploy widespread and effective monitoring networks. The question is: Is there an indirect way to accurately predict nitrate without having to invest too much in those expensive sensors?
 
+## Solutions from accessible data
 
+A recent study by Kermorvant et al. (2023) points to a promising direction. Instead of focusing solely on nitrate sensors, they leveraged data from much more common and low-cost water quality sensors, including nitrate concentrations, water level, dissolved oxygen, turbidity, specific conductance, and temperature. These are already well-established and widely deployed sensors. The data were collected every 15 minutes from three different watersheds in the United States.
 
+The team used a Generalised Additive Mixed Model (GAMM) (a combination of the Generalised Additive Model (GAM) and ARIMA) to analyse the complicated nonlinear relationships between nitrate and these less expensive variables. The results were impressive: Their model explained **99%** of the variation in nitrate concentrations at all three sites.
 
+However, the story does not end there. Although the same set of variables is used, their importance varies by location (see @tbl-variables-summary).
 
+```{r}
+#| label: tbl-variables-summary
+
+variable_sum <- data.frame(
+  Site = c("Arikaree",
+           "Caribou", 
+           "Lewis Run"),
+  "Climate zone" = c("Semi-arid", 
+                     "Subarctic",
+                     "Temperate"),
+  'Nitrate characteristics' = c("Highly variable nitrate (median = 5.5 μM)",
+                                "Stable, low nitrate (median = 28.4 μM)",
+                                "High, highly variable nitrate (median = 192 μM)"),
+  'Key controlling variables' = c("No dominant variable; water temperature most important but <5% deviance; temporal autocorrelation critical (25% deviance)",
+                                  "Specific conductance most important (10% deviance); temporal autocorrelation moderate (17% deviance)",
+                                  "All variables important; specific conductance highest (>15%), others 11-14% each")
+)
+
+knitr::kable(variable_sum, caption = "Nitrate characteristics and key variables at three sites", col.names = c("Site", "Climate zone", "Nitrate characteristics", "Main controlling variables"))
+```
+
+Each river has its own “story.” The Arikaree River has a wide range of nitrate concentrations, but no single factor dominates. The Caribou River, with low and stable nitrate concentrations, is primarily influenced by conductivity. Meanwhile, at Lewis Run, a heavily urbanised area, all factors contribute significantly to the nitrate prediction. This shows the flexibility of the model to adapt to different local conditions.
+
+```{r}
+#| label: fig-result
+#| fig-cap: "Variable importance, as the percentage of the total GAMM deviance, for statistically significant covariates (p < 0.001), by study site. Total deviance explained by each GAMM was 99% for all three sites."
+knitr::include_graphics(here("posts/welcome/result.png"))
+```
+
+In @fig-result, the importance of water quality variables in explaining nitrate varied significantly between watersheds. In Arikaree, the most important variable was water temperature but it also explained < 5% of the deviance, while the ARIMA component contributed up to 25% of the deviance. In contrast, at Lewis Run, all variables were significant with specific conductance being the most important (> 15%) and other variables contributing 11–14%, corresponding to GAM explaining up to 85% of the deviance. Caribou had a more stable model, with GAM explaining 83% of the deviance and specific conductance (~10%) being the dominant variable, while turbidity was the least important.
+
+In short, the correlation between water quality parameters and nitrate concentrations is the basis for these accurate predictions. 
