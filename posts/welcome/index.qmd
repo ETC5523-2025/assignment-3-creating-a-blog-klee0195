@@ -8,8 +8,15 @@ categories:
   - Environment
 ---
 
-This is the first post in a Quarto blog. Welcome!
+## The expensive problem of nitrate monitoring
 
-![](thumbnail.jpg)
+Fertilizer and manure runoff across agricultural fields are often the culprit for the presence of nitrate in rivers.
+
+Nitrate is an essential nutrient, but when present in excess in rivers, it becomes a serious pollutant, leading to eutrophication and ecosystem degradation. Closely monitoring nitrate concentrations is crucial for water resource managers.
+
+However, monitoring nitrate concentrations is a major cost challenge. Traditional methods such as manual sampling are time-consuming and labor-intensive, while dedicated nitrate sensors for continuous measurement are extremely expensive. This limits the ability to deploy widespread and effective monitoring networks. The question is: Is there an indirect way to accurately predict nitrate without having to invest too much in those expensive sensors?
+
+
+
 
 
