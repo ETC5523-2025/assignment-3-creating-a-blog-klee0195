@@ -8,6 +8,12 @@ categories:
   - Environment
 ---
 
+```{r loading packages}
+library("tidyverse")
+library("here")
+library("knitr")
+```
+
 ## The expensive problem of nitrate monitoring
 
 Fertilizer and manure runoff across agricultural fields are often the culprit for the presence of nitrate in rivers.
