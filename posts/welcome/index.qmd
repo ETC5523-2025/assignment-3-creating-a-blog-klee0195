@@ -16,11 +16,11 @@ library("knitr")
 
 ## The expensive problem of nitrate monitoring
 
-Fertiliser and manure runoff across agricultural fields are often the culprit for the presence of nitrate in rivers.
+Nitrate is an essential nutrient, but when present in excess in rivers, it becomes a serious pollutant, leading to eutrophication and ecosystem degradation. 
 
-Nitrate is an essential nutrient, but when present in excess in rivers, it becomes a serious pollutant, leading to eutrophication and ecosystem degradation. Closely monitoring nitrate concentrations is crucial for water resource managers.
+> Fertiliser and manure runoff across agricultural fields are often the culprit for the presence of nitrate in rivers. (Jacobo, 2025)
 
-However, monitoring nitrate concentrations is a major cost challenge. Traditional methods such as manual sampling are time-consuming and labor-intensive, while dedicated nitrate sensors for continuous measurement are extremely expensive. This limits the ability to deploy widespread and effective monitoring networks. The question is: Is there an indirect way to accurately predict nitrate without having to invest too much in those expensive sensors?
+Closely monitoring nitrate concentrations is crucial for water resource managers. However, monitoring nitrate concentrations is a major cost challenge. Traditional methods such as manual sampling are time-consuming and labor-intensive, while dedicated nitrate sensors for continuous measurement are extremely expensive. This limits the ability to deploy widespread and effective monitoring networks. The question is: Is there an indirect way to accurately predict nitrate without having to invest too much in those expensive sensors?
 
 ## Solutions from accessible data
 
@@ -63,7 +63,7 @@ In @fig-result, the importance of water quality variables in explaining nitrate 
 
 In short, the correlation between water quality parameters and nitrate concentrations is the basis for these accurate predictions. It means that we can monitor nitrate concentrations using more common and cheaper water quality sensors.
 
-## A Promising Future
+## A promising future
 
 This study opens a new era for nitrate monitoring. Instead of relying on a few expensive nitrate sensors, managers can deploy a widespread network of lower-cost sensors for indirect and extremely effective monitoring. As the study by Kermorvant et al. (2023) concluded, this approach “opens up a more efficient and cost-effective way to monitor nitrate.”
 
@@ -76,3 +76,14 @@ In summary, the key findings are:
 **Cost-effectiveness:** This is a revolutionary solution, significantly reducing initial investment and operating costs, allowing for large-scale monitoring.
 
 The cost of addressing nitrate problems in water sources is very expensive. In addition to the  expensive measurement costs already mentioned and analysed, the cost of treating the water to remove nitrate is also very high. This result can significantly reduce the cost burden of nitrate concern. In other words, this approach not only helps to protect our rivers more effectively but also optimises the budget, bringing double benefits to environmental protection and resource management.
+
+## Reference
+
+Kermorvant C, Liquet B, Litt G, Mengersen K, Peterson EE, Hyndman RJ, et al. (2023) *Understanding links between water-quality variables and nitrate concentration in freshwater streams using high frequency sensor data*. PLoS ONE 18(6): e0287640. [https://doi.org/10.1371/journal.pone.0287640](https://doi.org/10.1371/journal.pone.0287640)
+
+Jacobo, J. (2025, June 16). *First-ever ban on watering lawns in central Iowa due to nitrate levels in rivers*. ABC News. [https://abcnews.go.com/US/ban-watering-lawns-central-iowa-due-nitrate-levels/story?id=122890515](https://abcnews.go.com/US/ban-watering-lawns-central-iowa-due-nitrate-levels/story?id=122890515)
+
+WSP. (2022). *New study measures harmful cost of nitrate in drinking water*. WSPglobal. [https://www.wsp.com/en-nz/news/2022/new-study-measures-harmful-cost-of-nitrate-in-drinking-water](https://www.wsp.com/en-nz/news/2022/new-study-measures-harmful-cost-of-nitrate-in-drinking-water)
+
+
+
