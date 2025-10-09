@@ -61,4 +61,6 @@ knitr::include_graphics(here("posts/welcome/result.png"))
 
 In @fig-result, the importance of water quality variables in explaining nitrate varied significantly between watersheds. In Arikaree, the most important variable was water temperature but it also explained < 5% of the deviance, while the ARIMA component contributed up to 25% of the deviance. In contrast, at Lewis Run, all variables were significant with specific conductance being the most important (> 15%) and other variables contributing 11–14%, corresponding to GAM explaining up to 85% of the deviance. Caribou had a more stable model, with GAM explaining 83% of the deviance and specific conductance (~10%) being the dominant variable, while turbidity was the least important.
 
-In short, the correlation between water quality parameters and nitrate concentrations is the basis for these accurate predictions. 
+In short, the correlation between water quality parameters and nitrate concentrations is the basis for these accurate predictions. It means that we can monitor nitrate concentrations using more common and cheaper water quality sensors.
+
+
