@@ -63,4 +63,16 @@ In @fig-result, the importance of water quality variables in explaining nitrate 
 
 In short, the correlation between water quality parameters and nitrate concentrations is the basis for these accurate predictions. It means that we can monitor nitrate concentrations using more common and cheaper water quality sensors.
 
+## A Promising Future
 
+This study opens a new era for nitrate monitoring. Instead of relying on a few expensive nitrate sensors, managers can deploy a widespread network of lower-cost sensors for indirect and extremely effective monitoring. As the study by Kermorvant et al. (2023) concluded, this approach “opens up a more efficient and cost-effective way to monitor nitrate.”
+
+In summary, the key findings are:
+
+**High feasibility:** A set of common water quality variables can predict nitrate concentrations with up to 99% accuracy.
+
+**Flexibility:** The GAMM statistical model is adaptable to different natural conditions of each river basin.
+
+**Cost-effectiveness:** This is a revolutionary solution, significantly reducing initial investment and operating costs, allowing for large-scale monitoring.
+
+The cost of addressing nitrate problems in water sources is very expensive. In addition to the  expensive measurement costs already mentioned and analysed, the cost of treating the water to remove nitrate is also very high. This result can significantly reduce the cost burden of nitrate concern. In other words, this approach not only helps to protect our rivers more effectively but also optimises the budget, bringing double benefits to environmental protection and resource management.
