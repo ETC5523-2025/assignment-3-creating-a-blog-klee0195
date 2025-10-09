@@ -1,0 +1,13 @@
+---
+title: "Blog"
+listing:
+    contents: .
+    sort: "date desc"
+    type: default
+    categories: unnumbered
+    sort-ui: [date,title]
+    filter-ui: [date,title,categories]
+page-layout: full
+comments: false
+---
+
