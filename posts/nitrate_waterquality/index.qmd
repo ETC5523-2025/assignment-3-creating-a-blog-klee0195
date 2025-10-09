@@ -1,10 +1,9 @@
 ---
-title: "Welcome To My Blog Template"
+title: "An impressively affordable and accurate method to monitor nitrate"
 author: "Kim Yen Le"
-date: "2025-10-07"
+date: last-modified
 categories:
   - Assessment
-  - ETC5523
   - Environment
 ---
 
