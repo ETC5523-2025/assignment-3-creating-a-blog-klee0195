@@ -23,7 +23,7 @@ Closely monitoring nitrate concentrations is crucial for water resource manageme
 
 ## Solutions from accessible data
 
-A recent study by Kermorvant et al. (2023) points to a promising direction. Instead of focusing solely on nitrate sensors, they leveraged data from much more common and low-cost water quality sensors, including nitrate concentrations, water level, dissolved oxygen, turbidity, specific conductance, and temperature. These are already well-established and widely deployed sensors. The data were collected every 15 minutes from three different watersheds in the United States.
+A recent study by Kermorvant et al. (2023) points to a promising direction. Instead of focusing solely on nitrate sensors, they leveraged data from much more common and low-cost water quality sensors, including water level, dissolved oxygen, turbidity, specific conductance, and temperature. These are already well-established and widely deployed sensors. The data were collected every 15 minutes from three different watersheds in the United States.
 
 The team used a Generalised Additive Mixed Model (GAMM) (a combination of the Generalised Additive Model (GAM) and ARIMA) to analyse the complicated nonlinear relationships between nitrate and these less expensive variables. The results were impressive: Their model explained **99%** of the variation in nitrate concentrations at all three sites.
 
@@ -58,7 +58,7 @@ Each river has its own “story.” The Arikaree River has a wide range of nitra
 knitr::include_graphics(here("posts/nitrate_waterquality/result.png"))
 ```
 
-In @fig-result, the importance of water quality variables in explaining nitrate varied significantly between watersheds. In Arikaree, the most important variable was water temperature but it also explained < 5% of the deviance, while the ARIMA component contributed up to 25% of the deviance. In contrast, at Lewis Run, all variables were significant with specific conductance being the most important (> 15%) and other variables contributing 11–14%, corresponding to GAM explaining up to 85% of the deviance. Caribou had a more stable model, with GAM explaining 83% of the deviance and specific conductance (~10%) being the dominant variable, while turbidity was the least important.
+In @fig-result, the importance of water quality variables in explaining nitrate varied significantly between watersheds. In Arikaree, the most important variable was water temperature but it also explained < 5% of the variance, while the ARIMA component contributed up to 25% of the variance. In contrast, at Lewis Run, all variables were significant with specific conductance being the most important (> 15%) and other variables contributing 11–14%, corresponding to GAM explaining up to 85% of the variance. Caribou had a more stable model, with GAM explaining 83% of the variance and specific conductance (~10%) being the dominant variable, while turbidity was the least important.
 
 In short, the correlation between water quality parameters and nitrate concentrations is the basis for these accurate predictions. It means that we can monitor nitrate concentrations using more common and cheaper water quality sensors.
 
