@@ -1,5 +1,5 @@
 ---
-title: "An impressively affordable and accurate method to monitor nitrate"
+title: "An affordable and accurate method to monitor nitrate"
 author: "Kim Yen Le"
 date: last-modified
 categories:
