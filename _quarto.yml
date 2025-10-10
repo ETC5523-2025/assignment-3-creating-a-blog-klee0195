@@ -12,7 +12,7 @@ website:
       - href: about.qmd
         text: About
         icon: person-circle
-      - href: posts/welcome/index.qmd
+      - href: posts/index.qmd
         text: Blog
         icon: journal-text
     right:
