@@ -1,6 +1,5 @@
 ---
-title: "Kim's Blog"
-description: "Welcome to my blog!"
+title: " Welcome to Kim's blog"
 toc: false
 listing: 
   contents: 
