@@ -70,7 +70,7 @@ In summary, the key findings are:
 
 **High feasibility:** A set of common water quality variables can predict nitrate concentrations with up to 99% accuracy.
 
-**Flexibility:** The GAMM statistical model is adaptable to different natural conditions of each river basin.
+**Flexibility:** The GAMM statistical model is adaptable to different natural conditions of each watersheds.
 
 **Cost-effectiveness:** This is a revolutionary solution, significantly reducing initial investment and operating costs, allowing for large-scale monitoring.
 

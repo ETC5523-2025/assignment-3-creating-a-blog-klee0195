@@ -1,5 +1,6 @@
 ---
-title: "Blog"
+title: "All posts"
+description: "Browse my blog articles and analyses here"
 listing:
     contents: .
     sort: "date desc"

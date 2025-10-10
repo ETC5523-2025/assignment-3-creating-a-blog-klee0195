@@ -1,14 +1,28 @@
 ---
-title: "ETC5523 Blog Assessment"
-listing:
-  contents: posts
+title: "Kim Yen Le Blog"
+description: "It's nice to see you here!"
+toc: false
+listing: 
+  contents: 
+  - posts/*/index.qmd
   sort: "date desc"
   type: default
-  categories: true
-  sort-ui: false
+  categories: false
+  sort-ui: false 
   filter-ui: false
 page-layout: full
 title-block-banner: true
 ---
 
+<style>
+.quarto-title-block .quarto-title {
+  font-size: 2em;
+  margin-bottom: 0.3em;
+}
 
+.quarto-title-block .quarto-title {
+  text-align: center;
+}
+
+</style>
+## Recent posts
